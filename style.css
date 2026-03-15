@@ -1,0 +1,21 @@
+body {
+    background-color: #fdfaf7; /* Soft paper color */
+    color: #2c3e50;
+    font-family: 'Georgia', serif;
+    line-height: 1.8;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+h1 { color: #4a5d23; border-bottom: 1px solid #e0dcd5; padding-bottom: 10px; }
+
+.audio-section {
+    background: #f0f4e8;
+    padding: 15px;
+    border-radius: 8px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+audio { width: 100%; }
