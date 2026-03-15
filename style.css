@@ -1,21 +1,73 @@
+/* Grunnstillingar */
 body {
-    background-color: #fdfaf7; /* Soft paper color */
+    background-color: #fdfaf7; /* Mjúkur pappírslitur */
     color: #2c3e50;
     font-family: 'Georgia', serif;
     line-height: 1.8;
-    max-width: 600px;
-    margin: 40px auto;
-    padding: 20px;
+    max-width: 700px;
+    margin: 60px auto;
+    padding: 30px;
 }
 
-h1 { color: #4a5d23; border-bottom: 1px solid #e0dcd5; padding-bottom: 10px; }
-
-.audio-section {
-    background: #f0f4e8;
-    padding: 15px;
-    border-radius: 8px;
-    margin: 20px 0;
+header {
     text-align: center;
+    margin-bottom: 60px;
+    border-bottom: 2px solid #e0dcd5;
+    padding-bottom: 20px;
 }
 
-audio { width: 100%; }
+h1 { color: #4a5d23; font-size: 2.5em; margin-bottom: 10px; }
+h2 { color: #8b4513; font-size: 1.8em; margin-top: 50px; }
+h3 { color: #5d6d3e; border-left: 4px solid #4a5d23; padding-left: 15px; margin-top: 30px; }
+
+/* Hljóðspilari */
+.audio-section {
+    background: #f4f1ea;
+    padding: 20px;
+    border-radius: 12px;
+    margin: 25px 0;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.05);
+}
+
+audio { width: 100%; height: 40px; }
+
+/* Innihald og listar */
+.content p { margin-bottom: 20px; text-align: justify; }
+
+.brewing ul {
+    list-style-type: none;
+    padding-left: 0;
+    background: #fdfcfb;
+    padding: 20px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+}
+
+.brewing li {
+    margin-bottom: 15px;
+    padding-left: 25px;
+    position: relative;
+}
+
+.brewing li::before {
+    content: "🍃"; /* Te-lauf sem punktur */
+    position: absolute;
+    left: 0;
+}
+
+/* Fótur og skilrúm */
+.separator {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,0.1), rgba(0,0,0,0));
+    margin: 60px 0;
+}
+
+.about-me {
+    margin-top: 80px;
+    font-size: 0.95em;
+    color: #666;
+    background: #f9f9f9;
+    padding: 30px;
+    border-radius: 4px;
+}
