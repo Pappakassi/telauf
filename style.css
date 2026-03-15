@@ -49,12 +49,6 @@ audio { width: 100%; height: 40px; }
     position: relative;
 }
 
-.brewing li::before {
-    content: "🍃"; /* Te-lauf sem punktur */
-    position: absolute;
-    left: 0;
-}
-
 /* Fótur og skilrúm */
 .separator {
     border: 0;
